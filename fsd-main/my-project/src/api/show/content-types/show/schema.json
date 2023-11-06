@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shows",
+  "info": {
+    "singularName": "show",
+    "pluralName": "shows",
+    "displayName": "show",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "sh": {
+      "type": "string"
+    },
+    "num": {
+      "type": "biginteger"
+    },
+    "index": {
+      "type": "biginteger"
+    }
+  }
+}

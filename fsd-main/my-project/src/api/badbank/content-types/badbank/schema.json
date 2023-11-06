@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "badbanks",
+  "info": {
+    "singularName": "badbank",
+    "pluralName": "badbanks",
+    "displayName": "badbank",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "bal": {
+      "type": "integer"
+    },
+    "password": {
+      "type": "string"
+    }
+  }
+}
